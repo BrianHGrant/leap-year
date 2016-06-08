@@ -1,0 +1,16 @@
+leap year program
+
+input : year
+
+output: true/false
+
+condition if year = leap year
+  if year/4
+  !if year/100
+  year/400
+
+  behavior    input example   outcome example
+  not a leap    1993            false
+  year/4        2004            true
+  year/100      1900            false
+  year/400      2000            true
